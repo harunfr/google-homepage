@@ -1,0 +1,104 @@
+.main {
+    
+}
+#body {
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    color: #222; 
+    height: 96.366vh;
+    width: a;
+    padding: 0;
+    
+}
+a:link { 
+    text-decoration: none;
+    color: #222; 
+    
+} 
+a {
+    color:#222;
+    font-size: small;
+}
+a:hover {
+    text-decoration: underline;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+#left-navbar {
+}
+.left-navbar-items {
+    padding-left: 10px;
+}    
+#right-navbar {
+}
+.right-navbar-items {
+    padding-right: 10px;
+}
+#img-section {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#logo {
+    
+}
+#share-btn {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    flex-flow:row wrap;
+    padding-left: 30px;
+    
+}
+#search-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:  auto;
+    grid-row-gap: 10px;
+    margin-top: -200px;
+
+}
+#div-search-bar {
+    width: auto;
+    display: flex;
+    justify-content: center;    
+}
+#search-bar {
+    width: 40vw;
+}
+#search-buttons {
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+#search-btn {
+    margin-right: 17px;
+    padding: 7px 20px 7px 20px;
+    
+}
+#im-feeling-lucky-btn {
+    padding: 7px 20px 7px 20px;
+}
+
+/*#absolute-footer {
+    display: absolute;
+    bottom: 0;
+}   */
+#footer {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+#f-item-start {
+
+}
+#f-item-middle {
+    margin-right: 140px;
+}
+#f-item-end {
+}
